@@ -1,0 +1,50 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap" rel="stylesheet">
+    <script src="main5.js"></script>
+</head>
+<body>
+    <ul class="menu">
+        <li class="links"><img src="Star Galaxy.png"></li>
+        <br>
+        <br>
+        <br>
+        <li class="links"><a id="Home" onclick="Home()">Home</a></li>
+        <br>
+        <br>
+        <br>
+        <li class="links"><a id="Music" onclick="Music()">Music</a>
+        </li>
+        <br>
+        <br>
+        <br>
+        <li class="links"><a id="Leaderboard" onclick="Leaderboard()">Leaderboard</a>
+        </li>
+        <br>
+        <br>
+        <br>
+        <li class="links" ><a id="Credits" onclick="Credits()">Credits</a>
+        </li>
+        <br>
+        <br>
+        <br>
+        <li class="links"><a id="Connections" onclick="Connections()">Connections</a>
+        </li>
+    </ul>
+    <center>
+        <h1>Your workout</h1>
+        <span><label>Your Score is: </label><label id="Score">0</label></span>
+        <br>
+        <label>Your sentence is</label>
+        <br>
+        <h4 id="Question" >The quick brown fox jumps over the lazy dog</h4>
+        <br>
+        <input id="Answer" type="text" placeholder="Type the Sentence above and click check below when you are done">
+        <br>
+        <label>Spell the Sentence in less than 1:00, you have to spell the sentence 10 times to win</label>
+    <button id="Check" onclick="Check()">Check the Sentence</button>
+    </center>
+</body>
+</html>
